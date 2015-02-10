@@ -15,7 +15,8 @@ assert type(representatives) == list
 assert 442 == len(representatives)
 
 # 3. Ensure that each item in the list is of type HouseMember
-
+for rep in representatives:
+    assert type(rep) is congress.ElectedOfficial
 
 
 

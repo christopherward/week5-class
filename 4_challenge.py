@@ -11,7 +11,7 @@ turing_book = Book.search('enigma')
 
 assert type(turing_book) is Book
 assert turing_book.publisher == "Princeton University."
-assert len(Book.pubishers) == 14
+assert len(Book.publishers) == 14
 
 
 #####
